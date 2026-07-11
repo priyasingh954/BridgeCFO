@@ -1,0 +1,19 @@
+{
+  "name": "bridgecfo-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "latest",
+    "express": "latest",
+    "nodemailer": "latest",
+    "dotenv": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "latest"
+  }
+}
