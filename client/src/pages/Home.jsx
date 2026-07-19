@@ -25,7 +25,7 @@ export default function Home() {
         <div className="container hero-grid">
           <div className="hero-copy">
             <span className="eyebrow">BridgeCFO for growing businesses</span>
-            <h1>Strategic CFO support & more for growing businesses</h1>
+            <h2>Strategic CFO support & more for growing businesses</h2>
             <p className="lead">Building financial strategy, growth systems, tax discipline and governance — as a strategic partner in your business journey.</p>
             <div className="cta-row">
               <Link className="btn btn-primary" to="/contact">Get Consultation</Link>
@@ -54,7 +54,9 @@ export default function Home() {
       <section className="container split-section">
         <div className="content-card large-card">
           <span className="eyebrow">Welcome</span>
-          <h2>Welcome to BridgeCFO</h2>
+          <h1>
+            BridgeCFO – Virtual CFO Services for MSMEs, Startups & Family Businesses
+          </h1>
           <p>BridgeCFO positions itself as a strategic partner and aims to become a valued part of its clients’ success stories.</p>
           <p>We bring cross-industry expertise and comprehensive support across CFO services, growth systems, fund raise, treasury management, tax planning and litigation, management audit, governance and regulatory compliance.</p>
         </div>
