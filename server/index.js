@@ -106,11 +106,12 @@ app.post('/api/contact', async (req, res) => {
   }
 });
 
-const clientDist = path.join(__dirname, '..', 'client', 'dist');
-app.use(express.static(clientDist));
-
-app.get(/.*/, (_req, res) => {
-  res.sendFile(path.join(clientDist, 'index.html'));
+app.get('/', (_req, res) => {
+  res.json({
+    status: 'ok',
+    service: 'BridgeCFO API',
+    healthCheck: '/api/health'
+  });
 });
 
 app.listen(PORT, () => {
