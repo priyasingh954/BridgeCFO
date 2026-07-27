@@ -3,6 +3,7 @@ import Home from './pages/Home.jsx';
 import About from './pages/About.jsx';
 import Services from './pages/Services.jsx';
 import Contact from './pages/Contact.jsx';
+import bridgeCfoLogo from './assets/bridgecfo-logo.png';
 
 const directLawsMenu = [
   {
@@ -109,7 +110,11 @@ function Header() {
     <header className="site-header">
       <div className="container header-inner">
         <NavLink to="/" className="brand" aria-label="BridgeCFO Home">
-          <span className="brand-mark">B</span>
+          <img
+            src={bridgeCfoLogo}
+            alt="BridgeCFO logo"
+            className="brand-mark"
+          />
           <span>
             <strong>BridgeCFO</strong>
             <small>Finance Leadership Partner</small>
@@ -140,7 +145,14 @@ function Footer() {
     <footer className="site-footer" id="contact">
       <div className="container footer-grid">
         <div className="footer-about">
-          <div className="footer-brand"><span>B</span>BridgeCFO</div>
+          <div className="footer-brand">
+            <img
+              src={bridgeCfoLogo}
+              alt="BridgeCFO logo"
+              className="footer-logo"
+            />
+            <span className="footer-brand-name">BridgeCFO</span>
+          </div>
           <p>
             Strategic CFO support, tax advisory, compliance discipline, systems implementation and
             growth-readiness support for MSMEs, startups and growing businesses.
