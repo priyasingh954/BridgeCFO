@@ -10,12 +10,12 @@ const services = [
 ];
 
 const reasons = [
-  ['Partner to Fuel Growth', 'Strategic financial planning, fund raise and financial structuring.'],
+  ['Experienced Leadership', 'Access to seasoned CFOs and finance professionals, not just bookkeepers or generalist consultants."  & "Financial Integrity.'],
   ['Compliance Shield', 'End-to-end compliance management so promoters can focus on business.'],
   ['Leakage Guard', 'Revenue assurance, cost control, process checks and exception monitoring.'],
   ['Tax Challenge Defence', 'Structured support for notices, assessments, appeals and litigation.'],
   ['IPO & Growth Readiness', 'Systems, reporting, controls and governance for scale.'],
-  ['Financial Integrity', 'Clear numbers, reliable reporting and disciplined decision support.']
+  ['Affordable & Flexible', "Get CFO-level expertise without the cost of a full-time hire, scaled to your business's needs."]
 ];
 
 export default function Home() {
