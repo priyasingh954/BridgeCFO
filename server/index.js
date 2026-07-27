@@ -82,22 +82,26 @@ app.post('/api/contact', async (req, res) => {
     if (!emailResult.sent) {
       console.log('Contact form received:', formData);
 
-      return res.json({
-        message: 'Request submitted. Email credentials are not fully configured, so the enquiry was logged on the server.',
+      return res.status(500).json({
+        message: 'Email service is not configured on the production server.',
         emailConfigured: emailResult.configured,
-        emailSent: emailResult.sent
+        emailSent: false
       });
     }
 
     return res.json({ message: 'Thank you. Your request has been sent by email.' });
   } catch (error) {
     console.log('Contact form received:', formData);
-    console.error('Email send error:', error.message);
+    console.error('Email send error:', error);
 
-    return res.json({
-      message: 'Request submitted. Email delivery failed, so the enquiry was logged on the server.',
+    return res.status(500).json({
+      message: 'Email delivery failed. Please try again or contact BridgeCFO directly.',
       emailConfigured: true,
-      emailSent: false
+      emailSent: false,
+      error:
+        process.env.NODE_ENV === 'production'
+          ? undefined
+          : error.message
     });
   }
 });
