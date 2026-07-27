@@ -37,9 +37,9 @@ export default function About() {
       <section className="container split-section">
         <div className="content-card large-card">
           <span className="eyebrow">Founder’s Story</span>
-          <h2>Built from real finance leadership experience</h2>
-          <p>BridgeCFO is an initiative of <strong>Atul Kumar Singh</strong>, a Chartered Accountant and senior finance professional with rich experience in corporate finance, taxation, compliance, financial leadership and business advisory.</p>
-          <p>During his professional journey, Atul observed that many promising MSMEs and startups have strong business potential but do not always have access to experienced CFO-level guidance.</p>
+          <h2>Built from long CFO leadership experience</h2>
+          <p>BridgeCFO was born from a simple idea: connect growing businesses with experienced CFOs and professional experts at an affordable cost. It is an initiative of <strong>Atul Kumar Singh</strong>,a Chartered Accountant, CFO, and seasoned finance leader with extensive experience across corporate finance, building growth systems, ERP implementation and process automation, taxation, compliance, governance, and business strategy.</p>
+          <p>BridgeCFO is a platform designed to connect growing businesses, MSMEs, and startups with experienced CFOs and professional experts at an affordable cost — helping them build stronger financial systems, improve compliance and controls, and achieve sustainable growth.</p>
         </div>
         <div className="content-card accent-card">
           <span className="eyebrow">Our Purpose</span>

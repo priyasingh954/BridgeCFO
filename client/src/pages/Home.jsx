@@ -25,7 +25,7 @@ export default function Home() {
         <div className="container hero-grid">
           <div className="hero-copy">
             <span className="eyebrow">BridgeCFO for growing businesses</span>
-            <h2>Strategic CFO support & more for growing businesses</h2>
+            <h1>Strategic CFO support & more for growing businesses</h1> 
             <p className="lead">Building financial strategy, growth systems, tax discipline and governance — as a strategic partner in your business journey.</p>
             <div className="cta-row">
               <Link className="btn btn-primary" to="/contact">Get Consultation</Link>
