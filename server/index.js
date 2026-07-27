@@ -2,7 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import nodemailer from 'nodemailer';
+import { Resend } from 'resend';
 import dotenv from 'dotenv';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -32,27 +32,27 @@ function buildMessage({ name, phone, email, subject, request }) {
 }
 
 async function sendEmail(formData) {
-  const { SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS, MAIL_TO, MAIL_FROM } = process.env;
+  const { RESEND_API_KEY, MAIL_TO, MAIL_FROM } = process.env;
 
-  if (![SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS, MAIL_TO].every(hasRealValue)) {
-    console.log('Email not sent: SMTP configuration is missing.');
+  if (![RESEND_API_KEY, MAIL_TO, MAIL_FROM].every(hasRealValue)) {
+    console.log('Email not sent: Resend configuration is missing.');
     return { configured: false, sent: false };
   }
 
-  const transporter = nodemailer.createTransport({
-    host: SMTP_HOST,
-    port: Number(SMTP_PORT),
-    secure: Number(SMTP_PORT) === 465,
-    auth: { user: SMTP_USER, pass: SMTP_PASS }
-  });
-
-  await transporter.sendMail({
-    from: MAIL_FROM || SMTP_USER,
-    to: MAIL_TO,
+  const resend = new Resend(RESEND_API_KEY);
+  const { data, error } = await resend.emails.send({
+    from: MAIL_FROM,
+    to: [MAIL_TO],
     replyTo: formData.email,
     subject: `BridgeCFO Enquiry: ${formData.subject}`,
     text: buildMessage(formData)
   });
+
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  console.log('Email sent:', data?.id);
 
   return { configured: true, sent: true };
 }

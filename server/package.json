@@ -9,9 +9,9 @@
   },
   "dependencies": {
     "cors": "latest",
+    "dotenv": "latest",
     "express": "latest",
-    "nodemailer": "latest",
-    "dotenv": "latest"
+    "resend": "^6.18.0"
   },
   "devDependencies": {
     "nodemon": "latest"

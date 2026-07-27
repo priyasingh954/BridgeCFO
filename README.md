@@ -60,17 +60,12 @@ Then edit `server/.env`:
 
 ```env
 PORT=5000
-SMTP_HOST=smtp.gmail.com
-SMTP_PORT=465
-SMTP_USER=your-email@gmail.com
-SMTP_PASS=your-gmail-app-password
-MAIL_FROM=BridgeCFO Website <your-email@gmail.com>
+RESEND_API_KEY=your-resend-api-key
+MAIL_FROM=BridgeCFO Website <enquiry@your-verified-domain.com>
 MAIL_TO=atul@bridgecfo.in
 ```
 
-For Gmail SMTP, create a Gmail App Password and use that as `SMTP_PASS`.
-
-If SMTP credentials are not configured, the form will still submit locally and the request will be logged in the Node server console.
+Verify the sender domain in Resend before using it in `MAIL_FROM`. The backend sends email through Resend's HTTPS API.
 
 ## Production Build
 

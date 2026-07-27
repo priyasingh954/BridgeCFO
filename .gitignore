@@ -3,3 +3,4 @@
 !.env.example
 server/.env
 client/dist/
+node_modules/
