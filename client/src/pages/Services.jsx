@@ -28,7 +28,7 @@ export default function Services() {
           <div className="hero-copy">
             <span className="eyebrow">What we offer</span>
             <h1>Integrated CFO, tax and growth advisory services</h1>
-            <p className="lead">BridgeCFO brings strategic finance leadership, compliance depth and execution support to MSMEs, startups and growing businesses — without the cost of a full-time CFO.</p>
+            <p className="lead">LinkinCFO brings strategic finance leadership, compliance depth and execution support to MSMEs, startups and growing businesses — without the cost of a full-time CFO.</p>
             <div className="cta-row">
               <a className="btn btn-primary" href="#services">Explore Services</a>
               <Link className="btn btn-secondary" to="/contact">Discuss Requirement</Link>
@@ -62,7 +62,7 @@ export default function Services() {
         <div className="section-head centered">
           <span className="eyebrow">Service Portfolio</span>
           <h2>Everything a growing business needs from finance leadership</h2>
-          <p>Choose one service, combine multiple areas, or engage BridgeCFO as your long-term finance partner.</p>
+          <p>Choose one service, combine multiple areas, or engage LinkinCFO as your long-term finance partner.</p>
         </div>
         <div className="services-grid portfolio-grid">
           {services.map(([num, title, text, tags]) => (
@@ -80,7 +80,7 @@ export default function Services() {
         <div className="engagement-left">
           <span className="eyebrow light">How we engage</span>
           <h2>Flexible support. CFO-level impact.</h2>
-          <p>BridgeCFO can work as a virtual CFO, project advisor, compliance partner, system implementation guide or funding support team — depending on the stage and requirement of your business.</p>
+          <p>LinkinCFO can work as a virtual CFO, project advisor, compliance partner, system implementation guide or funding support team — depending on the stage and requirement of your business.</p>
         </div>
         <div className="journey-list">
           {journey.map(([title, text], index) => (
@@ -103,7 +103,7 @@ export default function Services() {
 
       <section className="container final-cta">
         <h2>Need CFO-level guidance for your business?</h2>
-        <p>Let BridgeCFO help you bring clarity to numbers, discipline to compliance, strength to controls and confidence to growth decisions.</p>
+        <p>Let LinkinCFO help you bring clarity to numbers, discipline to compliance, strength to controls and confidence to growth decisions.</p>
         <Link className="btn btn-secondary" to="/contact">Start a Conversation</Link>
       </section>
     </main>

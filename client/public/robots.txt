@@ -2,4 +2,4 @@ User-agent: *
 
 Allow: /
 
-Sitemap: https://www.bridgecfo.in/sitemap.xml
+Sitemap: https://www.linkincfo.com/sitemap.xml

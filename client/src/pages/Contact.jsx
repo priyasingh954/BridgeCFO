@@ -68,10 +68,10 @@ export default function Contact() {
       <section className="hero-section inner-hero contact-hero">
         <div className="container hero-grid">
           <div className="hero-copy">
-            <span className="eyebrow">Contact BridgeCFO</span>
+            <span className="eyebrow">Contact LinkinCFO</span>
             <h1>Let’s discuss your finance, tax or growth requirement</h1>
             <p className="lead">
-              Share your details and requirement. BridgeCFO will receive your enquiry by email notification.
+              Share your details and requirement. LinkinCFO will receive your enquiry by email notification.
             </p>
             <div className="contact-points">
               <a href="tel:+919830957967">+91 9830957967</a>
@@ -87,7 +87,7 @@ export default function Contact() {
               Use this form for Virtual CFO, GST, income tax, fund raising, ERP, automation, audit, payroll or compliance support.
             </p>
             <div className="stack-list">
-              <div><span>Email alert</span><small>To BridgeCFO inbox</small></div>
+              <div><span>Email alert</span><small>To LinkinCFO inbox</small></div>
               <div><span>Structured request</span><small>Name + phone + subject</small></div>
             </div>
           </aside>
@@ -145,7 +145,7 @@ export default function Contact() {
         {/* <div className="contact-info-card">
           <h3>What happens after submission?</h3>
           <div className="info-step"><b>1</b><span>Your enquiry is captured securely by the Node backend.</span></div>
-          <div className="info-step"><b>2</b><span>An email is sent to the BridgeCFO contact inbox.</span></div>
+          <div className="info-step"><b>2</b><span>An email is sent to the LinkinCFO contact inbox.</span></div>
           <div className="info-note">
             Configure SMTP details in the server <code>.env</code> file before deploying.
           </div>
