@@ -133,7 +133,7 @@ function Header() {
 
         <div className="header-contact">
           <a href="tel:+919830957967">+91 9830957967</a>
-          <a href="mailto:atul@bridgecfo.in">atul@linkincfo.in</a>
+          <a href="mailto:atul@bridgecfo.in">riojaimperial@gmail.com</a>
         </div>
       </div>
     </header>
