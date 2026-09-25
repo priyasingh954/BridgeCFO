@@ -13,11 +13,11 @@ export default function About() {
       <section className="hero-section inner-hero">
         <div className="container hero-grid">
           <div className="hero-copy">
-            <span className="eyebrow">About BridgeCFO</span>
+            <span className="eyebrow">About LinkinCFO</span>
             <h1>Your bridge to experienced CFO leadership</h1>
-            <p className="lead">BridgeCFO connects MSMEs, startups and growing businesses with experienced CFOs and finance professionals on a flexible, practical and affordable basis.</p>
+            <p className="lead">LinkinCFO connects MSMEs, startups and growing businesses with experienced CFOs and finance professionals on a flexible, practical and affordable basis.</p>
             <div className="cta-row">
-              <Link className="btn btn-primary" to="/contact">Connect with BridgeCFO</Link>
+              <Link className="btn btn-primary" to="/contact">Connect with LinkinCFO</Link>
               <Link className="btn btn-secondary" to="/services">Explore Services</Link>
             </div>
           </div>
@@ -38,13 +38,13 @@ export default function About() {
         <div className="content-card large-card">
           <span className="eyebrow">Founder’s Story</span>
           <h2>Built from long CFO leadership experience</h2>
-          <p>BridgeCFO was born from a simple idea: connect growing businesses with experienced CFOs and professional experts at an affordable cost. It is an initiative of <strong>Atul Kumar Singh</strong>,a Chartered Accountant, CFO, and seasoned finance leader with extensive experience across corporate finance, building growth systems, ERP implementation and process automation, taxation, compliance, governance, and business strategy.</p>
-          <p>BridgeCFO is a platform designed to connect growing businesses, MSMEs, and startups with experienced CFOs and professional experts at an affordable cost; helping them build stronger financial systems, improve compliance and controls, and achieve sustainable growth.</p>
+          <p>LinkinCFO was born from a simple idea: connect growing businesses with experienced CFOs and professional experts at an affordable cost. It is an initiative of <strong>Atul Kumar Singh</strong>,a Chartered Accountant, CFO, and seasoned finance leader with extensive experience across corporate finance, building growth systems, ERP implementation and process automation, taxation, compliance, governance, and business strategy.</p>
+          <p>LinkinCFO is a platform designed to connect growing businesses, MSMEs, and startups with experienced CFOs and professional experts at an affordable cost; helping them build stronger financial systems, improve compliance and controls, and achieve sustainable growth.</p>
         </div>
         <div className="content-card accent-card">
           <span className="eyebrow">Our Purpose</span>
           <h2>From routine accounting to strategic finance</h2>
-          <p>BridgeCFO helps businesses build stronger financial foundations through Virtual/Fractional CFO support, tax and compliance advisory, ERP, automation, litigation support, management audit, fund raising, accounting and payroll support.</p>
+          <p>LinkinCFO helps businesses build stronger financial foundations through Virtual/Fractional CFO support, tax and compliance advisory, ERP, automation, litigation support, management audit, fund raising, accounting and payroll support.</p>
           <div className="pill-wrap">
             {['Virtual CFO', 'Tax Advisory', 'Fund Raising', 'ERP', 'Automation'].map(item => <span className="pill" key={item}>{item}</span>)}
           </div>
@@ -56,7 +56,7 @@ export default function About() {
           <span className="eyebrow">Impact Story</span>
           <h2>Making CFO intelligence accessible</h2>
           <p>The absence of CFO-level guidance can lead to weak financial visibility, avoidable compliance risks, poor working capital control and missed funding opportunities.</p>
-          <p>BridgeCFO bridges this gap with hands-on, impact-oriented financial leadership for better decisions, stronger controls and growth-ready systems.</p>
+          <p>LinkinCFO bridges this gap with hands-on, impact-oriented financial leadership for better decisions, stronger controls and growth-ready systems.</p>
         </div>
         <div className="point-list">
           <div><h3>Better Decisions</h3><p>Reliable MIS, financial reporting and business insights.</p></div>
@@ -69,7 +69,7 @@ export default function About() {
         <div className="content-card">
           <span className="eyebrow">Our Vision</span>
           <h2>To become the trusted CFO platform for growing businesses</h2>
-          <p>Our vision is to build BridgeCFO as a trusted meeting point where MSMEs, startups and growth-oriented businesses can access the right financial expertise at the right stage of their journey.</p>
+          <p>Our vision is to build LinkinCFO as a trusted meeting point where MSMEs, startups and growth-oriented businesses can access the right financial expertise at the right stage of their journey.</p>
         </div>
         <div className="value-grid">
           {values.map(([title, text]) => (
@@ -79,7 +79,7 @@ export default function About() {
       </section>
 
       <section className="container final-cta">
-        <h2>BridgeCFO is your bridge to experienced financial leadership.</h2>
+        <h2>LinkinCFO is your bridge to experienced financial leadership.</h2>
         <p>Strategic CFO support for MSMEs, startups and growing businesses — without the cost of a full-time CFO.</p>
         <Link className="btn btn-secondary" to="/contact">Start a Conversation</Link>
       </section>

@@ -16,7 +16,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/api/health', (_req, res) => {
-  res.json({ status: 'ok', project: 'BridgeCFO React + Node' });
+  res.json({ status: 'ok', project: 'LinkinCFO React + Node' });
 });
 
 function requiredText(value) {
@@ -28,7 +28,7 @@ function hasRealValue(value) {
 }
 
 function buildMessage({ name, phone, email, subject, request }) {
-  return `New BridgeCFO enquiry\n\nName: ${name}\nPhone: ${phone}\nEmail: ${email}\nSubject: ${subject}\n\nRequest:\n${request}`;
+  return `New LinkinCFO enquiry\n\nName: ${name}\nPhone: ${phone}\nEmail: ${email}\nSubject: ${subject}\n\nRequest:\n${request}`;
 }
 
 async function sendEmail(formData) {
@@ -44,7 +44,7 @@ async function sendEmail(formData) {
     from: MAIL_FROM,
     to: [MAIL_TO],
     replyTo: formData.email,
-    subject: `BridgeCFO Enquiry: ${formData.subject}`,
+    subject: `LinkinCFO Enquiry: ${formData.subject}`,
     text: buildMessage(formData)
   });
 
@@ -95,7 +95,7 @@ app.post('/api/contact', async (req, res) => {
     console.error('Email send error:', error);
 
     return res.status(500).json({
-      message: 'Email delivery failed. Please try again or contact BridgeCFO directly.',
+      message: 'Email delivery failed. Please try again or contact LinkinCFO directly.',
       emailConfigured: true,
       emailSent: false,
       error:
@@ -109,11 +109,11 @@ app.post('/api/contact', async (req, res) => {
 app.get('/', (_req, res) => {
   res.json({
     status: 'ok',
-    service: 'BridgeCFO API',
+    service: 'LinkinCFO API',
     healthCheck: '/api/health'
   });
 });
 
 app.listen(PORT, () => {
-  console.log(`BridgeCFO server running on http://localhost:${PORT}`);
+  console.log(`LinkinCFO server running on http://localhost:${PORT}`);
 });

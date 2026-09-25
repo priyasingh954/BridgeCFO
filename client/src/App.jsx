@@ -109,14 +109,14 @@ function Header() {
   return (
     <header className="site-header">
       <div className="container header-inner">
-        <NavLink to="/" className="brand" aria-label="BridgeCFO Home">
+        <NavLink to="/" className="brand" aria-label="LinkinCFO Home">
           <img
             src={bridgeCfoLogo}
-            alt="BridgeCFO logo"
+            alt="LinkinCFO logo"
             className="brand-mark"
           />
           <span>
-            <strong>BridgeCFO</strong>
+            <strong>LinkinCFO</strong>
             <small>Finance Leadership Partner</small>
           </span>
         </NavLink>
@@ -133,7 +133,7 @@ function Header() {
 
         <div className="header-contact">
           <a href="tel:+919830957967">+91 9830957967</a>
-          <a href="mailto:atul@bridgecfo.in">atul@bridgecfo.in</a>
+          <a href="mailto:atul@bridgecfo.in">atul@linkincfo.in</a>
         </div>
       </div>
     </header>
@@ -148,10 +148,10 @@ function Footer() {
           <div className="footer-brand">
             <img
               src={bridgeCfoLogo}
-              alt="BridgeCFO logo"
+              alt="LinkinCFO logo"
               className="footer-logo"
             />
-            <span className="footer-brand-name">BridgeCFO</span>
+            <span className="footer-brand-name">LinkinCFO</span>
           </div>
           <p>
             Strategic CFO support, tax advisory, compliance discipline, systems implementation and
@@ -188,7 +188,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <div className="container">© {new Date().getFullYear()} BridgeCFO. All rights reserved.</div>
+        <div className="container">© {new Date().getFullYear()} LinkinCFO. All rights reserved.</div>
       </div>
     </footer>
   );

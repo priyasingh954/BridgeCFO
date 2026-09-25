@@ -1,6 +1,6 @@
-# BridgeCFO React + Node Website
+# LinkinCFO React + Node Website
 
-This project converts the BridgeCFO Home, About Us and Services HTML designs into a React + Node website.
+This project converts the LinkinCFO Home, About Us and Services HTML designs into a React + Node website.
 
 ## Pages
 
@@ -61,7 +61,7 @@ Then edit `server/.env`:
 ```env
 PORT=5000
 RESEND_API_KEY=your-resend-api-key
-MAIL_FROM=BridgeCFO Website <enquiry@your-verified-domain.com>
+MAIL_FROM=LinkinCFO Website <enquiry@your-verified-domain.com>
 MAIL_TO=atul@bridgecfo.in
 ```
 

@@ -24,7 +24,7 @@ export default function Home() {
       <section className="hero-section">
         <div className="container hero-grid">
           <div className="hero-copy">
-            <span className="eyebrow">BridgeCFO for growing businesses</span>
+            <span className="eyebrow">LinkinCFO for growing businesses</span>
             <h1>Strategic CFO support & more for growing businesses</h1> 
             <p className="lead">Building financial strategy, growth systems, tax discipline and governance — as a strategic partner in your business journey.</p>
             <div className="cta-row">
@@ -55,9 +55,9 @@ export default function Home() {
         <div className="content-card large-card">
           <span className="eyebrow">Welcome</span>
           <h1>
-            BridgeCFO – Virtual CFO Services for MSMEs, Startups & Family Businesses
+            LinkinCFO – Virtual CFO Services for MSMEs, Startups & Family Businesses
           </h1>
-          <p>BridgeCFO positions itself as a strategic partner and aims to become a valued part of its clients’ success stories.</p>
+          <p>LinkinCFO positions itself as a strategic partner and aims to become a valued part of its clients’ success stories.</p>
           <p>We bring cross-industry expertise and comprehensive support across CFO services, growth systems, fund raise, treasury management, tax planning and litigation, management audit, governance and regulatory compliance.</p>
         </div>
         <div className="content-card accent-card">
@@ -77,7 +77,7 @@ export default function Home() {
         <div className="section-head centered">
           <span className="eyebrow">Our Core Services</span>
           <h2>Practical finance leadership for better business decisions</h2>
-          <p>BridgeCFO offers a focused portfolio of CFO, tax, compliance, funding, audit and automation services for growing businesses.</p>
+          <p>LinkinCFO offers a focused portfolio of CFO, tax, compliance, funding, audit and automation services for growing businesses.</p>
         </div>
         <div className="services-grid">
           {services.map(([num, title, text]) => (
@@ -93,7 +93,7 @@ export default function Home() {
       <section className="container why-section">
         <div className="why-left">
           <span className="eyebrow light">Why Choose Us</span>
-          <h2>Why BridgeCFO?</h2>
+          <h2>Why LinkinCFO?</h2>
           <p>We combine strategic brain, financial expertise and execution discipline to help growing businesses bridge operational, strategic and transitional gaps.</p>
         </div>
         <div className="reason-grid">
