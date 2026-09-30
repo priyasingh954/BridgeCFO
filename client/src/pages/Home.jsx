@@ -39,8 +39,8 @@ export default function Home() {
           </div>
 
           <aside className="hero-panel glass-card">
-            <span className="panel-tag">CFO Gap Solution</span>
-            <h2>Bridge over the CFO gap</h2>
+            <span className="panel-tag">CFO Solution</span>
+            <h2>Link to the CFO expertise</h2>
             <p>Access senior financial expertise for day-to-day financial management, actionable MIS, fund raise support, tax planning, compliance and strategic advice.</p>
             <div className="metric-grid">
               <div className="metric"><b>25+</b><span>Years leadership</span></div>
