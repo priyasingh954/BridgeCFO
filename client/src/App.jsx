@@ -183,7 +183,7 @@ function Footer() {
         <div>
           <h3>Contact</h3>
           <a href="tel:+919830957967">+91 9830957967</a>
-          <a href="mailto:atul@bridgecfo.in">atul@bridgecfo.in</a>
+          <a href="mailto:atul@bridgecfo.in">riojaimperial@gmail.com</a>
           <span>Kolkata, India</span>
         </div>
       </div>
