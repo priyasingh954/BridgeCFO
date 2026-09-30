@@ -14,7 +14,7 @@ export default function About() {
         <div className="container hero-grid">
           <div className="hero-copy">
             <span className="eyebrow">About LinkinCFO</span>
-            <h1>Your bridge to experienced CFO leadership</h1>
+            <h1>Your link to experienced CFO leadership</h1>
             <p className="lead">LinkinCFO connects MSMEs, startups and growing businesses with experienced CFOs and finance professionals on a flexible, practical and affordable basis.</p>
             <div className="cta-row">
               <Link className="btn btn-primary" to="/contact">Connect with LinkinCFO</Link>
@@ -79,7 +79,7 @@ export default function About() {
       </section>
 
       <section className="container final-cta">
-        <h2>LinkinCFO is your bridge to experienced financial leadership.</h2>
+        <h2>LinkinCFO is your link to experienced financial leadership.</h2>
         <p>Strategic CFO support for MSMEs, startups and growing businesses — without the cost of a full-time CFO.</p>
         <Link className="btn btn-secondary" to="/contact">Start a Conversation</Link>
       </section>
