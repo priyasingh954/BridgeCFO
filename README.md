@@ -62,7 +62,7 @@ Then edit `server/.env`:
 PORT=5000
 RESEND_API_KEY=your-resend-api-key
 MAIL_FROM=LinkinCFO Website <enquiry@your-verified-domain.com>
-MAIL_TO=atul@bridgecfo.in
+MAIL_TO=atul@linkincfo.com
 ```
 
 Verify the sender domain in Resend before using it in `MAIL_FROM`. The backend sends email through Resend's HTTPS API.
